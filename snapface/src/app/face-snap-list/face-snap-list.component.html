@@ -1,0 +1,10 @@
+
+
+
+<app-face-snap *ngFor="let faceSnap of faceSnaps$ | async" [faceSnap]="faceSnap"></app-face-snap>
+
+<!--<app-face-snap [faceSnap]="mySnap" *ngIf="mySnap.snaps>=200000"></app-face-snap>
+<app-face-snap [faceSnap]="myOtherSnap" *ngIf="myOtherSnap.snaps>=200000"></app-face-snap>
+
+<app-face-snap *ngFor="let fS of faceSnaps" [faceSnap]="fS"></app-face-snap>
+Liaison avec l'input de face-snap.component (LIAISON PAR ATTRIBUT)-->
